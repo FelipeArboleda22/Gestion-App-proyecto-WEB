@@ -1,9 +1,11 @@
+import Login from "./layouts/components/auth/Login"
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    
+    <Login />
+
     </>
   )
 }
